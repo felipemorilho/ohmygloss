@@ -1,6 +1,7 @@
 .banner__kit {
     display: flex;
-    flex-direction: column;
+    height: 70vh;
+    justify-content: space-evenly;
     z-index: -1;
 }
 
@@ -18,6 +19,14 @@
     width: 100%;
     min-height: 135px;
     height: unset;
+    object-fit: cover;
+}
+
+.banner__image__cabelo {
+    display: flex;
+    width: 75vw;
+    min-height: 135px;
+    height: auto;
     object-fit: cover;
 }
 

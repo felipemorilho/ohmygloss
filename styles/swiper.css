@@ -1,9 +1,11 @@
 .carousel__titulo {
     color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
     vertical-align: middle;
     font-family: var(--fonte-secundario);
     text-align: center;
+    text-decoration-style: wavy;
+    text-decoration-color: var(--cor-terciaria);
+    text-decoration-line: underline;
     font-weight: 700;
     padding: 1em 0 1em 0;
 }
@@ -28,6 +30,7 @@
     border: 0.15em solid var(--cor-primaria);
     padding: 0.5em;
     overflow: hidden;
+    background-color: var(--cor-de-fundo);
 }
 
 .swiper-button-prev,
@@ -40,14 +43,14 @@
     margin: .5em 0;
 }
 
-.swiper-slide h2 {
+.swiper__title {
     text-align: center;
     font-weight: 700;
     line-height: 1.5;
     overflow: hidden;
 }
 
-.swiper-slide p {
+.swiper_price {
     text-align: center;
     line-height: 1.2;
     overflow: hidden;
