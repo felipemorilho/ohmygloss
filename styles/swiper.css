@@ -1,0 +1,165 @@
+.carousel__titulo {
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    vertical-align: middle;
+    font-family: var(--fonte-secundario);
+    text-align: center;
+    font-weight: 700;
+    padding: 1em 0 1em 0;
+}
+
+.carousel__titulo a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-size: 48px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.swiper-slide,
+.swiper-card {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 0.15em solid var(--cor-primaria);
+    padding: 0.5em;
+    overflow: hidden;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+
+.swiper-slide h2 {
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+.swiper-slide p {
+    text-align: center;
+    line-height: 1.2;
+    overflow: hidden;
+
+}
+
+.action__btn {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    border: 0.25em solid var(--cor-quinternaria);
+    border-radius: 6px;
+    background-color: transparent;
+    color: var(--cor-quinternaria);
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden;
+
+}
+
+button:hover {
+    padding: 0.5em 6em;
+    border-radius: 6px;
+    background-color: var(--cor-quinternaria);
+    color: var(--cor-de-fundo);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.botões {
+    display: flex;
+}
+
+.descrição__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.descrição__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descrição__texto {
+    font-size: 14px;
+}
+
+.botões__item {
+    margin: 0 0.5em;
+}
+
+.botões__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.swiper-wrapper-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2em;
+}
+
+.swiper-card {
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .carousel__container {
+        display: flex;
+        margin: 0 1em 2em 1em;
+        align-items: center;
+    }
+
+    .carousel__titulo {
+        font-size: 26px;
+    }
+
+    .descrição__titulo {
+        font-size: 32px;
+    }
+
+    .descrição__texto {
+        font-size: 16px;
+    }
+
+    .descrição {
+        margin-right: 2em;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 90%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+}

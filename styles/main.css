@@ -1,0 +1,118 @@
+.main__quick-list a {
+    text-decoration: none;
+}
+
+.main__quick-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin: 1em 1em;
+    align-items: center;
+}
+
+.main__quick-menu .main__quick-list li {
+    display: inline-block;
+    vertical-align: top;
+    width: 147px;
+    text-align: center;
+}
+
+.main__quick-menu .main__quick-list li p {
+    margin-top: 10px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--fonte-secundario);
+    letter-spacing: -0.5px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--cor-primaria);
+    background-clip: text;
+    text-decoration: none;
+}
+
+.main__quick-menu .main__quick-list span {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    background-color: var(--branco);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -khtml-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.main__quick-menu .main__quick-list .main__quick-cabelo span {
+    background-image: url("/assets/image/BanhoIcon.svg");
+}
+
+.main__quick-menu .main__quick-list .main__quick-banho span {
+    background-image: url("/assets/image/SoapIcon.png");
+}
+
+.main__quick-menu .main__quick-list .main__quick-pele span {
+    background-image: url("/assets/image/SkincareIcon.svg");
+}
+
+.main__quick-menu .main__quick-list .main__quick-maquiagem span {
+    background-image: url("/assets/image/MakeupIcon.png");
+}
+
+.main__quick-menu .main__quick-list .main__quick-perfume span {
+    background-image: url("/assets/image/PerfumIcon.png");
+}
+
+.main__quick-menu .main__quick-title h2::after {
+    content: '';
+    position: absolute;
+    bottom: 14px;
+    right: -16px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 6px;
+    background: var(--cor-terciaria);
+    
+}
+
+.main__quick-menu .main__quick-title h2 {
+    display: inline-block;
+    position: relative;
+    font-size: 48px;
+    font-family: var(--fonte-terciaria);
+    line-height: 1.2;
+}
+
+@media screen and (min-width: 768px) {
+
+    .main__quick-menu {
+        display: table;
+        width: 100%; 
+        margin: 1em 2em;
+        box-sizing: border-box;
+        position: relative;
+        max-width: 95vw;
+        min-width: 95vw;
+    }
+
+    .main__quick-title {
+        display: table-cell;
+        vertical-align: middle;
+        width: 415px;
+        padding-top: 8px;
+        text-align: left;
+    }
+    
+    .main__quick-menu .main__quick-list {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right;
+        font-size: 0;
+    }
+
+    
+}

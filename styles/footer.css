@@ -1,0 +1,12 @@
+hr {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.container__footer__title-bold {
+    font-weight: 700;
+}
