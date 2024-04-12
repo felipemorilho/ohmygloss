@@ -1,4 +1,4 @@
-.carousel__titulo {
+.carousel__title {
     color: var(--cor-primaria);
     vertical-align: middle;
     font-family: var(--fonte-secundario);
@@ -10,7 +10,7 @@
     padding: 1em 0 1em 0;
 }
 
-.carousel__titulo a {
+.carousel__title a {
     text-decoration: none;
     color: var(--cor-primaria);
     font-size: 48px;
@@ -45,16 +45,25 @@
 
 .swiper__title {
     text-align: center;
-    font-weight: 700;
+    text-wrap: nowrap;
+    font-weight: 600;
     line-height: 1.5;
     overflow: hidden;
+    -webkit-text-stroke-width: medium;
 }
 
 .swiper_price {
-    text-align: center;
+    text-align: left;
+    font-weight: 700;
     line-height: 1.2;
+    padding-left: 0.5em;
     overflow: hidden;
+}
 
+.price-bold {
+    font-family: var(--fonte-secundario);
+    font-size: 24px;
+    color: var(--cor-quinternaria);
 }
 
 .action__btn {
@@ -62,10 +71,10 @@
     padding: 0.5em;
     margin-top: 1em;
     margin-bottom: 0;
-    border: 0.25em solid var(--cor-quinternaria);
+    border: 0.25em solid var(--cor-terciaria);
     border-radius: 6px;
     background-color: transparent;
-    color: var(--cor-quinternaria);
+    color: var(--cor-primaria);
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -73,45 +82,13 @@
 
 }
 
-button:hover {
+.action__btn:hover {
     padding: 0.5em 6em;
     border-radius: 6px;
-    background-color: var(--cor-quinternaria);
+    background-color: var(--cor-terciaria);
     color: var(--cor-de-fundo);
     font-weight: 700;
     text-transform: uppercase;
-}
-
-.botões {
-    display: flex;
-}
-
-.descrição__titulo {
-    color: var(--laranja);
-    font-weight: 700;
-}
-
-.descrição__titulo-livro {
-    color: var(--azul);
-    font-size: 18px;
-    font-weight: 700;
-    margin: 0.5em 0;
-}
-
-.descrição__texto {
-    font-size: 14px;
-}
-
-.botões__item {
-    margin: 0 0.5em;
-}
-
-.botões__ancora {
-    background-color: var(--laranja);
-    padding: 1em 2.2em;
-    color: var(--branco);
-    font-weight: 700;
-    text-decoration: none;
 }
 
 .swiper-wrapper-card {
@@ -135,20 +112,8 @@ button:hover {
         align-items: center;
     }
 
-    .carousel__titulo {
-        font-size: 26px;
-    }
-
-    .descrição__titulo {
-        font-size: 32px;
-    }
-
-    .descrição__texto {
-        font-size: 16px;
-    }
-
-    .descrição {
-        margin-right: 2em;
+    .carousel__title {
+        font-size: 48px;
     }
 
     .swiper-pagination {
