@@ -4,6 +4,7 @@
 @import url('styles/photoBanner.css');
 @import url('styles/main.css');
 @import url('styles/swiper.css');
+@import url('styles/contact.css');
 
 :root {
     --cor-de-fundo: #d9faec;

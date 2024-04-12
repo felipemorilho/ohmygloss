@@ -16,6 +16,7 @@ hr {
     justify-content: space-around;
     line-height: 1.3;
     align-items: self-start;
+    margin-bottom: 1em;
 }
 
 .footer-list {
@@ -64,6 +65,7 @@ hr {
     text-align: center;
     padding: 0.5em 0;
     color: var(--cor-terciaria);
+    margin-bottom: 1em;
 }
 
 .footer__title {
