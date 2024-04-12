@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Zen+Maru+Gothic&display=swap&family=Gloria+Hallelujah&display=swap');
+@import url('styles/header.css');
+@import url('styles/footer.css');
+@import url('styles/photoBanner.css');
+@import url('styles/main.css');
+@import url('styles/swiper.css');
+@import url('styles/contact.css');
+
+:root {
+    --cor-de-fundo: #d9faec;
+    --cor-primaria: #282B44;
+    --cor-secundaria: #7DC5CC;
+    --cor-terciaria: #CC7CAA;
+    --cor-quartenaria: #CDC27D;
+    --cor-quinternaria: #49703F;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --degrade: linear-gradient(3deg,  #CC7CAA , #CDC27D , #CC7CAA);
+    --fonte-principal: "Zen Maru Gothic", serif;
+    --fonte-secundario: "Gloria Hallelujah";
+    --fonte-terciaria: "Alex Brush";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+

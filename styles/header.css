@@ -1,0 +1,281 @@
+.header__sidebar-menu {
+    width: 28px;
+    height: 28px;
+    background-image: url("../assets/image/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.option__btn:checked~.sidebar>.header__sidebar-menu {
+    background-image: url("../assets/image/Menu\ Aberto.svg");
+}
+
+.option__btn:checked~.sidebar {
+    background: transparent;
+}
+
+.search__bar {
+    display: none;
+
+}
+
+.search__bar__mobile::placeholder {
+    display: grid;
+    font-family: var(--fonte-terciaria);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--cor--quinternaria);
+    background: url(../assets/image/Lupa.png) no-repeat;
+    background-position: 1em;
+    background-color: var(--cor--quinternaria);
+}
+
+.search__bar__mobile {
+    background-color: transparent;
+    color: var(--cor-primaria);
+    width: 90vw;
+    height: 3em;
+    margin-top: 1em;
+    padding: 1em;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 4px solid var(--cor-terciaria);
+}
+
+.top__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+}
+
+.header {
+    position: relative;
+    margin: 0;
+}
+
+.container__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__image {
+    padding: 1em;
+}
+
+.menu-list,
+.list-cabelo,
+.list-banho,
+.list-pele,
+.list-maquiagem {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    top: 100%;
+    width: auto;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.options__btn:checked~.menu-list {
+    display: block;
+    flex-grow: 1;
+    z-index: 1000;
+}
+
+.options__btn:checked~.sidebar>.menu-list {
+    background: var(--cor-quartenaria);
+    
+}
+
+.menu-list__title,
+.menu-list__item {
+    padding: 1em;
+    background-color: var(--cor-de-fundo);
+}
+
+.menu-list__item:hover {
+    background-color: var(--cor-quartenaria);
+}
+
+.menu-list__title {
+    color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menu-list__link {
+    background-color: var(--cor-primaria);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.options__link {
+    text-decoration: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--cor-primaria);
+    background-clip: text;
+}
+
+.options__btn {
+    display: none;
+}
+
+.container__header__title {
+    display: none;
+}
+
+.header__options {
+    display: none;
+}
+
+.header__text {
+    display: none;
+}
+
+.header__icons {
+    display: flex;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container__header__title,
+    .container__header__title-bold {
+        font-family: var(--fonte-terciaria);
+        font-size: 24px;
+    }
+
+    .container__header__title {
+        font-weight: 400;
+        display: block;
+    }
+
+    .container__header__title-bold {
+        font-weight: 700;
+        font-size: 38px;
+    }
+
+    .header__options {
+        display: block;
+    }
+
+    .options {
+        display: flex;
+    }
+
+    .option__item {
+        padding: 0 1em;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    .header__link {
+        text-decoration: none;
+        color: var(--cor-primaria)
+    }
+
+    .header__sidebar-menu {
+        display: none;
+    }
+
+    .options__btn__cabelo:checked~.list-cabelo,
+    .options__btn__banho:checked~.list-banho,
+    .options__btn__pele:checked~.list-pele,
+    .options__btn__maquiagem:checked~.list-maquiagem {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        z-index: 1000;
+    }
+
+    .options__btn__cabelo,
+    .options__btn__banho,
+    .options__btn__pele,
+    .options__btn__maquiagem {
+        display: none;
+    }
+
+    .options__btn__cabelo:checked~.options__cabelo>.options__item,
+    .options__btn__banho:checked~.options__banho>.options__item,
+    .options__btn__pele:checked~.options__pele>.options__item,
+    .options__btn__maquiagem:checked~.options__maquiagem>.options__item {
+        text-decoration: underline;    
+    }
+
+    .options__item {
+        padding: 0.5em 1em;
+        color: var(--cor-primaria);
+    }
+
+    .menu-list__item:hover>.menu-list__link {
+        text-decoration: none;
+    }
+    
+    .container__header__logo {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        align-items: end;
+    }
+
+    .search__bar::placeholder {
+        display: grid;
+        font-family: var(--fonte-terciaria);
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        color: var(--cor--quinternaria);
+        background: url(../assets/image/Lupa.png) no-repeat;
+        background-position: 1em;
+        background-color: var(--cor--quinternaria);
+    }
+
+    .search__bar {
+        display: block;
+        background-color: transparent;
+        color: var(--cor-primaria);
+        width: 30em;
+        height: 3em;
+        padding-top: 1em;
+        padding-left: 2em;
+        text-transform: capitalize;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 4px solid var(--cor-terciaria);
+    }
+
+    .search__bar__mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1368px) {
+    .header__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--cor-primaria);
+    }
+
+    .header {
+        display: block;
+        padding: 0 3em;
+    }
+
+    .options {
+        margin-right: auto;
+    }
+
+    .header__text {
+        display: block;
+    }
+}
