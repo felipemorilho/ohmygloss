@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oh My Gloss</title>
+    <link rel="icon" href="../assets/image/Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body>
+
+    <header class="header">
+      <div class="container__header">
+
+        <div class="search__mobile">
+          <input type="search" class="search__bar__mobile" placeholder="Pesquisar" />
+        </div>
+
+        <section class="top__header">
+
+          <input type="checkbox" id="menu" class="options__btn" />
+          <label for="menu" class="sidebar">
+            <span class="header__sidebar-menu header__image"></span>
+          </label>
+
+          <ul class="menu-list">
+
+            <li class="menu-list__item">
+              <a href="../sections/cabelos.html" class="menu-list__link"> Cabelos </a>
+            </li>
+            <li class="menu-list__item">
+              <a href="../sections/banho.html" class="menu-list__link"> Banho </a>
+            </li>
+            <li class="menu-list__item">
+              <a href="../sections/skincare.html" class="menu-list__link"> Skincare </a>
+            </li>
+            <li class="menu-list__item">
+              <a href="../sections/maquiagem.html" class="menu-list__link"> Maquiagem </a>
+            </li>
+            <li class="menu-list__item">
+              <a href="../sections/perfumes.html" class="menu-list__link"> Perfumaria </a>
+            </li>
+            <li class="menu-list__item">
+              <a href="../sections/about.html" class="menu-list__link">Sobre Nós</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="../index.html#contact" class="menu-list__link">Contato</a>
+            </li>
+          </ul>
+
+
+          <div class="container__header__logo">
+            <img
+              src="../assets/image/Logo.png"
+              alt="Logo da Oh My Gloss!"
+              class="container__header__image"
+            />
+
+            <h1 class="container__header__title">
+              Oh My <b class="container__header__title-bold">Gloss!</b>
+            </h1>
+          </div>
+
+          <div class="search">
+            <input type="search" class="search__bar" placeholder="Pesquisar" />
+          </div>
+
+          <div class="header__icons">
+            <a href="#" class="header__link">
+              <img
+                src="../assets/image/Compras.svg"
+                alt="Carrinho de Compras"
+                class="header__image"
+              />
+              <p class="header__text">Minha Necessaire</p>
+            </a>
+            <a href="#" class="header__link">
+              <img
+                src="../assets/image/Usuario.svg"
+                alt="Perfil de Usuário"
+                class="header__image"
+              />
+              <p class="header__text">Meu Perfil</p>
+            </a>
+          </div>
+
+      </section>
+
+        <nav class="header__options">
+
+          <ul class="options">
+            <input type="checkbox" id="options-cabelo" class="options__btn__cabelo" />
+            <label for="options-cabelo" class="options__cabelo">
+              <li class="options__item">Cabelos</li>
+            </label>
+
+            <ul class="list-cabelo">
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Shampoo</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Condicionador</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Creme de Pentear</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Máscara</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Kits Completos</a>
+              </li>
+            </ul>
+
+            <input
+              type="checkbox"
+              id="options-banho"
+              class="options__btn__banho"
+            />
+            <label for="options-banho" class="options__banho">
+              <li class="options__item">Banho</li>
+            </label>
+
+            <ul class="list-banho">
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Sabonete</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Sabonete Esfoliante</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Creme Corporal</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Óleos para Banho</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Kits Completos</a>
+              </li>
+            </ul>
+
+            <input
+              type="checkbox"
+              id="options-pele"
+              class="options__btn__pele"
+            />
+            <label for="options-pele" class="options__pele">
+              <li class="options__item">Skincare</li>
+            </label>
+
+            <ul class="list-pele">
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Creme para o Corpo</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Anti Acne</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Anti Aging</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Óleos Bifásicos</a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link">Óleos Trifásicos</a>
+              </li>
+            </ul>
+
+            <input
+              type="checkbox"
+              id="options-maquiagem"
+              class="options__btn__maquiagem"
+            />
+            <label for="options-maquiagem" class="options__maquiagem">
+              <li class="options__item">Maquiagem</li>
+            </label>
+
+            <ul class="list-maquiagem">
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link"> Batom </a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link"> Base </a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link"> Delineador </a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link"> Sombras </a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#" class="menu-list__link"> Lápis </a>
+              </li>
+            </ul>
+
+            <li class="options__item">
+              <a href="#" class="options__link"> Perfumaria </a>
+            </li>
+
+            <li class="options__item">
+              <a href="#" class="options__link"> Sobre Nós </a>
+            </li>
+            <li class="options__item">
+              <a href="#" class="options__link"> Contato </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <hr />
+    </header>
+
+    <div class="banner__kit">
+      <div class="banner__container">
+        <div class="banner__container__image">
+          
+          <img alt loading="lazy" class="banner__image__cabelo" src="../assets/image/Maquiagem10.jpeg">
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="main__quick-menu">
+      <div class="main__quick-title">
+        <h2 class="main__title">Categorias  </h2>
+        <p>Navegue rapidamente entre as categorias.</p>
+      </div>
+      <ul class="main__quick-list">
+        <li class="main__quick-cabelo">
+          <a href="../sections/cabelos.html">
+            <span></span>
+            <p>Cabelos</p>
+          </a>
+        </li>
+        <li class="main__quick-banho">
+          <a href="/sections/banho.html">
+            <span></span>
+            <p>Banho</p>
+          </a>
+        </li>
+        <li class="main__quick-pele">
+          <a href="/sections/skincare.html">
+            <span></span>
+            <p>Skincare</p>
+          </a>
+        </li>
+        <li class="main__quick-maquiagem">
+          <a href="/sections/maquiagem.html">
+            <span></span>
+            <p>Maquiagem</p>
+          </a>
+        </li>
+        <li class="main__quick-perfume">
+          <a href="/sections/perfumes.html">
+            <span></span>
+            <p>Perfumes</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <section class="carousel__cabelo">
+      <h2 class="carousel__title"> <a> Maquiagem </a></h2>
+
+      <div class="carousel__container">
+          <div class="swiper">
+
+              <div class="swiper-wrapper-card">
+                  
+                  <div class="swiper-card"><img src="../assets/image/Maquiagem1.jpeg" alt="Delineador">
+                    <h2 class="swiper__title"> Delineador </h2>
+                    <p class="swiper_price"><b class="price-bold">R$</b>23,00</p>
+                    <button class="action__btn">Comprar</button>  
+                  </div>
+                  <div class="swiper-card"><img src="../assets/image/Maquiagem2.jpeg" alt="Sombra 9 cores">
+                    <h2 class="swiper__title"> Sombra 9 cores </h2>
+                    <p class="swiper_price"><b class="price-bold">R$</b>47,00</p>
+                    <button class="action__btn">Comprar</button>
+                  </div>
+                  <div class="swiper-card"><img src="../assets/image/Maquiagem3.jpeg" alt="Sombra 6 cores">
+                    <h2 class="swiper__title">Sombra 6 cores </h2>
+                    <p class="swiper_price"><b class="price-bold">R$</b>39,00</p>
+                    <button class="action__btn">Comprar</button>
+                  </div>
+                  <div class="swiper-card"><img src="../assets/image/Maquiagem4.jpeg" alt="Máscara para Cílios">
+                    <h2 class="swiper__title">Máscara para Cílios</h2>
+                    <p class="swiper_price"><b class="price-bold">R$</b>22,00</p>
+                    <button class="action__btn">Comprar</button>
+                  </div>
+                  <div class="swiper-card"><img src="../assets/image/Maquiagem5.jpeg" alt="Lápis de Olho">
+                    <h2 class="swiper__title">Lápis de Olho</h2>
+                    <p class="swiper_price"><b class="price-bold">R$</b>15,00</p>
+                    <button class="action__btn">Comprar</button>
+                  </div>
+                  <div class="swiper-card"><img src="../assets/image/Maquiagem7.jpeg" alt="Batom Matte">
+                    <h2 class="swiper__title">Batom Matte</h2>
+                    <p class="swiper_price"><b class="price-bold">R$</b>18,00</p>
+                    <button class="action__btn">Comprar</button>
+                  </div>
+                  <div class="swiper-card"><img src="../assets/image/Maquiagem8.jpeg" alt="Batom">
+                    <h2 class="swiper__title">Batom</h2>
+                    <p class="swiper_price"><b class="price-bold">R$</b>16,00</p>
+                    <button class="action__btn">Comprar</button>
+                  </div>
+                  <div class="swiper-card"><img src="../assets/image/Maquiagem9.jpeg" alt="Blush">
+                    <h2 class="swiper__title">Blush</h2>
+                    <p class="swiper_price"><b class="price-bold">R$</b>26,00</p>
+                    <button class="action__btn">Comprar</button>
+                  </div>
+                  <div class="swiper-card"><img src="../assets/image/Maquiagem11.jpeg" alt="Pincel para Maquiar">
+                    <h2 class="swiper__title">Pincel para Maquiar</h2>
+                    <p class="swiper_price"><b class="price-bold">R$</b>19,00</p>
+                    <button class="action__btn">Comprar</button>
+                  </div>
+                  <div class="swiper-card"><img src="../assets/image/Kit6.jpeg" alt="Kit Maquiagem Completo">
+                    <h2 class="swiper__title">Kit Maquiagem OMG</h2>
+                    <p class="swiper_price"><b class="price-bold">R$</b>199,00</p>
+                    <button class="action__btn">Comprar</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+
+    <hr />
+
+    <footer class="footer">
+    
+      <div class="footer__container">
+
+        <div class="footer__logo">
+          <h2 class="footer__title">Oh My Gloss</h2>
+          <img src="../assets/image/Logo.png" alt="Logo da OhMyGloss">
+        </div>
+        <ul class="footer-list">
+            <li class="footer-list__item">
+                <a href="#" class="footer-list__link">Sobre Nós</a>
+            </li>
+            <li class="footer-list__item">
+                <a href="#" class="footer-list__link">Nossas Lojas</a>
+            </li>
+            <li class="footer-list__item">
+                <a href="#" class="footer-list__link">Frete e Devoluções</a>
+            </li>
+            <li class="footer-list__item">
+                <a href="#" class="footer-list__link">Trabalhe Conosco</a>
+            </li>
+            <li class="footer-list__item">
+                <a href="#" class="footer-list__link">FAQ</a>
+            </li>
+        </ul>
+
+        <ul class="footer-list">
+            <li class="footer__title">Nossas Redes</li>
+            <div class="footer-list__icon">
+              <li class="footer-list__item">
+                  <a href="https://www.instagram.com" class="footer-list__link"><img src="../assets/image/Instagram.svg" alt="Nosso Instagram"></a>
+              </li>
+              <li class="footer-list__item">
+                  <a href="https://www.tiktok.com" class="footer-list__link"><img src="../assets/image/Tiktok.svg" alt="Nosso TikTok"></a>
+              </li>
+              <li class="footer-list__item">
+                  <a href="https://www.facebook.com" class="footer-list__link"><img src="../assets/image/Facebook.svg" alt="Nosso Facebook"></a>
+              </li>
+              <li class="footer-list__item">
+                  <a href="https://www.linkedin.com" class="footer-list__link"><img src="../assets/image/Linkedin.svg" alt="Nosso LinkedIn"></a>
+              </li>
+            </div>
+        </ul>
+
+      </div>
+
+      <hr />
+      <p class="footer__signature">Desenvolvido por: <strong class="container__footer__title-bold">Felipe Morilho de Castro</strong></p>
+    </footer>
+
+    <script>
+      const checkboxes = document.querySelectorAll('.options input[type="checkbox"]');
+      checkboxes.forEach(checkbox => {
+          checkbox.addEventListener('change', function() {
+              checkboxes.forEach(otherCheckbox => {
+                  if (otherCheckbox !== this) {
+                      otherCheckbox.checked = false;
+                  }
+              });
+          });
+      });
+  </script>
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+      const swiper = new Swiper('.swiper', {
+          spaceBetween: 10,
+          slidesPerView: 3,
+          pagination: {
+              el: '.swiper-pagination',
+              type: 'bullets',
+          },
+          loop: true,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+      });
+  </script>
+  </body>
+</html>
