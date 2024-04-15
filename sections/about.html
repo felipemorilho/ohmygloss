@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oh My Gloss</title>
-    <link rel="icon" href="./assets/image/Logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="reset.css" />
+    <link rel="icon" href="../assets/image/Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
   </head>
 
   <body>
@@ -54,13 +54,13 @@
 
           <div class="container__header__logo">
             <img
-              src="assets/image/Logo.png"
+              src="../assets/image/Logo.png"
               alt="Logo da Oh My Gloss!"
               class="container__header__image"
             />
 
             <h1 class="container__header__title">
-              Oh My <b class="container__header__title-bold">Gloss!</b>
+              <a href="../index.html">Oh My <b class="container__header__title-bold">Gloss!</b></a>
             </h1>
           </div>
 
@@ -71,7 +71,7 @@
           <div class="header__icons">
             <a href="#" class="header__link">
               <img
-                src="assets/image/Compras.svg"
+                src="../assets/image/Compras.svg"
                 alt="Carrinho de Compras"
                 class="header__image"
               />
@@ -79,7 +79,7 @@
             </a>
             <a href="#" class="header__link">
               <img
-                src="assets/image/Usuario.svg"
+                src="../assets/image/Usuario.svg"
                 alt="Perfil de Usuário"
                 class="header__image"
               />
@@ -216,86 +216,72 @@
       <div class="banner__container">
         <div class="banner__container__image">
           
-          <img alt loading="lazy" class="banner__image" src="assets/image/Maquiagem2.jpeg">
-          <button class="banner__btn"> Comprar </button>
+          <img alt loading="lazy" class="banner__image__cabelo" src="../assets/image/About.jpeg">
           
-        </div>
-      </div>
-
-      <div class="banner__container">
-        <div class="banner__container__image">
-          
-          <img alt loading="lazy" class="banner__image" src="assets/image/Perfume5.jpeg">
-          <button class="banner__btn"> Comprar </button>
-
         </div>
       </div>
     </div>
 
     <div class="main__quick-menu">
       <div class="main__quick-title">
-        <h2 class="main__title"> Categorias  </h2>
+        <h2 class="main__title">Categorias  </h2>
         <p>Navegue rapidamente entre as categorias.</p>
       </div>
-      <div class="main__quick-list">
+      <ul class="main__quick-list">
         <li class="main__quick-cabelo">
-          <a href="./sections/cabelos.html">
+          <a href="../sections/cabelos.html">
             <span></span>
             <p>Cabelos</p>
           </a>
         </li>
         <li class="main__quick-banho">
-          <a href="./sections/banho.html">
+          <a href="/sections/banho.html">
             <span></span>
             <p>Banho</p>
           </a>
         </li>
         <li class="main__quick-pele">
-          <a href="./sections/skincare.html">
+          <a href="/sections/skincare.html">
             <span></span>
             <p>Skincare</p>
           </a>
         </li>
         <li class="main__quick-maquiagem">
-          <a href="./sections/maquiagem.html">
+          <a href="/sections/maquiagem.html">
             <span></span>
             <p>Maquiagem</p>
           </a>
         </li>
         <li class="main__quick-perfume">
-          <a href="./sections/perfumes.html">
+          <a href="/sections/perfumes.html">
             <span></span>
             <p>Perfumes</p>
           </a>
         </li>
-      </div>
+      </ul>
     </div>
 
-    <hr />
+    <section class="about">
 
-    <section class="carousel">
-      <h2 class="carousel__title"> Nossa história </h2>
-    
+      <h2 class="carousel__title"> <a> Nossa história </a></h2>
+
+      <p class="about__description"> Há muitos anos, em uma pequena cidade banhada pela luz do sol e pelos perfumes da natureza, uma jovem empreendedora chamada Sofia tinha um sonho: criar uma linha de cosméticos que celebrasse a beleza única de cada pessoa. </p>
+        <br>
+      <p class="about__description"> No ano de 2023, esse sonho ganhou vida quando Sofia fundou a OhMyGloss. Inspirada pela paixão pela beleza e pelo desejo de fazer a diferença, ela mergulhou de cabeça no mundo dos cosméticos, determinada a criar produtos que não apenas realçassem a beleza exterior, mas também nutrissem a alma. </p>
+        <br>
+      <p class="about__description"> Desde o início, a OhMyGloss se destacou pela sua abordagem inovadora e compromisso com a qualidade. Cada produto era cuidadosamente formulado com ingredientes naturais, escolhidos a dedo por Sofia e sua equipe, para garantir resultados excepcionais e um cuidado delicado com a pele. </p>
+        <br>
+      <p class="about__description"> Mas a verdadeira magia da OhMyGloss estava na sua missão de espalhar confiança e autoestima. Não se tratava apenas de vender produtos, mas sim de empoderar pessoas a abraçarem sua individualidade e expressarem sua beleza única para o mundo. </p>
+        <br>
+      <p class="about__description"> Ao longo dos anos, a OhMyGloss cresceu, expandindo sua linha de produtos e alcançando pessoas em todo o mundo. No entanto, uma coisa permaneceu constante: o compromisso implacável com a qualidade, a inovação e o bem-estar dos seus clientes. </p>
+        <br>
+      <p class="about__description"> Hoje, a OhMyGloss continua a ser uma líder no mundo dos cosméticos, mas sua verdadeira essência continua a ser a mesma: celebrar a beleza em todas as suas formas e inspirar pessoas a brilharem por dentro e por fora. </p>
+        <br>
+      <p class="about__description"> Esta é a história da OhMyGloss - uma jornada de paixão, dedicação e amor pela beleza, que começou em 2023 e continua a iluminar o mundo até os dias de hoje.</p> 
     </section>
 
-    <div class="contact__container" id="contact">
-      <h2 class="contact__title">Tem alguma dúvida?</h2>
-      <form action="#">
-          <div class="form-fields">
-              <label for="nome">Nome:</label>
-              <input type="text" id="nome" name="nome" required>
-          </div>
-          <div class="form-fields">
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required>
-          </div>
-          <div class="form-fields">
-              <label for="mensagem">Mensagem:</label>
-              <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-          </div>
-          <button class="form__btn" type="submit">Enviar</button>
-      </form>
-    </div>
+
+    <hr />
 
     <footer class="footer">
     
@@ -303,7 +289,7 @@
 
         <div class="footer__logo">
           <h2 class="footer__title">Oh My Gloss</h2>
-          <img src="./assets/image/Logo.png" alt="Logo da OhMyGloss">
+          <img src="../assets/image/Logo.png" alt="Logo da OhMyGloss">
         </div>
         <ul class="footer-list">
             <li class="footer-list__item">
@@ -324,22 +310,22 @@
         </ul>
 
         <ul class="footer-list">
-          <li class="footer__title">Nossas Redes</li>
-          <div class="footer-list__icon">
-            <li class="footer-list__item">
-                <a href="https://www.instagram.com" class="footer-list__link"><img src="../assets/image/Instagram.svg" alt="Nosso Instagram"></a>
-            </li>
-            <li class="footer-list__item">
-                <a href="https://www.tiktok.com" class="footer-list__link"><img src="../assets/image/Tiktok.svg" alt="Nosso TikTok"></a>
-            </li>
-            <li class="footer-list__item">
-                <a href="https://www.facebook.com" class="footer-list__link"><img src="../assets/image/Facebook.svg" alt="Nosso Facebook"></a>
-            </li>
-            <li class="footer-list__item">
-                <a href="https://www.linkedin.com" class="footer-list__link"><img src="../assets/image/Linkedin.svg" alt="Nosso LinkedIn"></a>
-            </li>
-          </div>
-      </ul>
+            <li class="footer__title">Nossas Redes</li>
+            <div class="footer-list__icon">
+              <li class="footer-list__item">
+                  <a href="https://www.instagram.com" class="footer-list__link"><img src="../assets/image/Instagram.svg" alt="Nosso Instagram"></a>
+              </li>
+              <li class="footer-list__item">
+                  <a href="https://www.tiktok.com" class="footer-list__link"><img src="../assets/image/Tiktok.svg" alt="Nosso TikTok"></a>
+              </li>
+              <li class="footer-list__item">
+                  <a href="https://www.facebook.com" class="footer-list__link"><img src="../assets/image/Facebook.svg" alt="Nosso Facebook"></a>
+              </li>
+              <li class="footer-list__item">
+                  <a href="https://www.linkedin.com" class="footer-list__link"><img src="../assets/image/Linkedin.svg" alt="Nosso LinkedIn"></a>
+              </li>
+            </div>
+        </ul>
 
       </div>
 

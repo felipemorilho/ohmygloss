@@ -100,6 +100,17 @@
     list-style: none;
 }
 
+.about {
+    margin: 0 2em;
+    border: 4px solid var(--cor-primaria);
+}
+
+.about__description {
+    margin: 1em 2em;
+    text-indent: 1.5em;
+    font-family: var(--fonte-secundario);
+    
+}
 @media screen and (min-width: 768px) {
 
     .main__quick-menu {
