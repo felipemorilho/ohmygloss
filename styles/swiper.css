@@ -24,6 +24,11 @@
 
 .swiper-slide,
 .swiper-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -45,8 +50,9 @@
 
 .swiper__title {
     text-align: center;
-    text-wrap: nowrap;
+    text-wrap: wrap;
     font-weight: 600;
+    font-size: 18px;
     line-height: 1.5;
     overflow: hidden;
     -webkit-text-stroke-width: medium;
@@ -55,6 +61,7 @@
 .swiper_price {
     text-align: left;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.2;
     padding-left: 0.5em;
     overflow: hidden;
@@ -62,7 +69,7 @@
 
 .price-bold {
     font-family: var(--fonte-secundario);
-    font-size: 24px;
+    font-size: 18px;
     color: var(--cor-quinternaria);
 }
 
@@ -76,6 +83,7 @@
     background-color: transparent;
     color: var(--cor-primaria);
     font-weight: 700;
+    font-size: 10px;
     text-align: center;
     text-transform: uppercase;
     overflow: hidden;
@@ -99,7 +107,7 @@
 }
 
 .swiper-card {
-    width: calc(33.33% - 20px);
+    width: calc(50% - 20px);
     box-sizing: border-box;
     margin: 10px;
 }
@@ -124,10 +132,37 @@
         width: 90%;
     }
 
+    .swiper__title {
+        font-size: 24px;
+    }
+
+    .swiper_price {
+        text-align: left;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.2;
+        padding-left: 0.5em;
+        overflow: hidden;
+    }
+
+    .price-bold {
+        font-size: 24px;
+    }
+
     .swiper-button-prev,
     .swiper-button-next {
         display: block;
         top: 60%;
+    }
+
+    .swiper-card {
+        width: calc(33.33% - 20px);
+        box-sizing: border-box;
+        margin: 10px;
+    }
+
+    .action__btn {
+        font-size: 18px;
     }
 
 }
