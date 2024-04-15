@@ -106,11 +106,12 @@
 }
 
 .about__description {
-    margin: 1em 2em;
+    margin: 0.5em 1em;
     text-indent: 1.5em;
+    text-align: justify;
     font-family: var(--fonte-secundario);
-    
 }
+
 @media screen and (min-width: 768px) {
 
     .main__quick-menu {
