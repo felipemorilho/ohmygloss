@@ -28,9 +28,11 @@ hr {
 .footer-list__icon {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 0.5em;
+    gap: 1em;
     padding-top: 2em;
+    width: calc(50%);
 }
 
 .footer-list__link {
@@ -52,8 +54,8 @@ hr {
 }
 
 .footer-list__link img {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     filter: invert(63%) sepia(55%) saturate(471%) hue-rotate(284deg) brightness(88%) contrast(78%);
 }
 
