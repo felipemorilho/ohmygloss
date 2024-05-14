@@ -126,7 +126,6 @@
 
 .popup {
     width: 50% ;
-    height: 80vh;
     display: flex;
     flex-direction: column;
     background-color: var(--cor-terciaria);
@@ -148,6 +147,7 @@
 .popup__img {
     display: flex;
     width: 40px;
+    padding-bottom: 0.5em;
 }
 
 .popup__title {
