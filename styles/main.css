@@ -1,3 +1,4 @@
+
 .main__quick-list a {
     text-decoration: none;
 }
@@ -124,37 +125,39 @@
 }
 
 .popup {
-    width: 40vw;
+    width: 50% ;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     background-color: var(--cor-terciaria);
     opacity: 1;
-    padding: 1em;
+    padding: 0.5em;
     border-radius: 1em;
     box-shadow: 14px 20px 1em 0px var(--cor-primaria);
     text-align: center;
     align-items: center;
+    justify-content: space-evenly;
+    position: relative;
 }
 
 .popup__div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .popup__img {
     display: flex;
-    width: 15%;
-    padding: 1em;
+    width: 40px;
 }
 
 .popup__title {
-    font-size: 64px;
+    font-size: 32px;
     font-family: var(--fonte-terciaria);
     font-weight: 700;
 }
 
 .popup__description {
-    font-size: 28px;
+    font-size: 16px;
     font-family: var(--fonte-primaria);
     line-height: 1.2;
 }
@@ -201,4 +204,23 @@
         padding-top: 8px;
         text-align: left;
     }
+
+    .popup {
+        width: 40vw;
+        height: auto;
+        padding: 1em;
+    }
+
+    .popup__title {
+        font-size: 48px;
+    }
+
+    .popup__description {
+        font-size: 24px;
+    }
+
+    .popup__img {
+        width: 60px;
+    }
+
 }
