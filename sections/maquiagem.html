@@ -55,8 +55,6 @@
           <div class="container__header__logo">
             <a href="../index.html">
             <img
-            src="../assets/image/Logo.png"
-              alt="Logo da Oh My Gloss!"
               class="container__header__image"
             />
           </a>
@@ -218,7 +216,7 @@
       <div class="banner__container">
         <div class="banner__container__image">
           
-          <img alt loading="lazy" class="banner__image__cabelo" src="../assets/image/Maquiagem10.jpeg">
+          <img alt loading="lazy" class="banner__image__maquiagem" src="">
           
         </div>
       </div>
@@ -271,59 +269,8 @@
       <div class="carousel__container">
           <div class="swiper">
 
-              <div class="swiper-wrapper-card">
-                  
-                  <div class="swiper-card"><img src="../assets/image/Maquiagem1.jpeg" alt="Delineador">
-                    <h2 class="swiper__title"> Delineador </h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>23,00</p>
-                    <button class="action__btn">Comprar</button>  
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Maquiagem2.jpeg" alt="Sombra 9 cores">
-                    <h2 class="swiper__title"> Sombra 9 cores </h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>47,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Maquiagem3.jpeg" alt="Sombra 6 cores">
-                    <h2 class="swiper__title">Sombra 6 cores </h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>39,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Maquiagem4.jpeg" alt="Máscara para Cílios">
-                    <h2 class="swiper__title">Máscara para Cílios</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>22,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Maquiagem5.jpeg" alt="Lápis de Olho">
-                    <h2 class="swiper__title">Lápis de Olho</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>15,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Maquiagem7.jpeg" alt="Batom Matte">
-                    <h2 class="swiper__title">Batom Matte</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>18,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Maquiagem8.jpeg" alt="Batom">
-                    <h2 class="swiper__title">Batom</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>16,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Maquiagem9.jpeg" alt="Blush">
-                    <h2 class="swiper__title">Blush</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>26,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Maquiagem11.jpeg" alt="Pincel para Maquiar">
-                    <h2 class="swiper__title">Pincel para Maquiar</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>19,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Kit6.jpeg" alt="Kit Maquiagem Completo">
-                    <h2 class="swiper__title">Kit Maquiagem OMG</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>199,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-              </div>
+              <div class="swiper-wrapper-card" id="carousel-maquiagem"></div>
+
           </div>
       </div>
     </section>
@@ -337,7 +284,7 @@
 
         <div class="footer__logo">
           <h2 class="footer__title">Oh My Gloss</h2>
-          <img src="../assets/image/Logo.png" alt="Logo da OhMyGloss">
+          <img>
         </div>
         <ul class="footer-list">
             <li class="footer-list__item">
@@ -395,20 +342,7 @@
   </script>
 
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <script>
-      const swiper = new Swiper('.swiper', {
-          spaceBetween: 10,
-          slidesPerView: 3,
-          pagination: {
-              el: '.swiper-pagination',
-              type: 'bullets',
-          },
-          loop: true,
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-      });
-  </script>
+  <script src="../productScript.js"></script>
+  <script src="../script.js"></script>
   </body>
 </html>

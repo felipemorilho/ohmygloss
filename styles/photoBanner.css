@@ -11,7 +11,8 @@
     overflow: hidden;
 }
 
-.banner__container__image {
+.banner__container__image,
+.banner__container__imageTwo {
     min-width: 135px;
 }
 
@@ -23,7 +24,12 @@
     object-fit: cover;
 }
 
-.banner__image__cabelo {
+.banner__image__cabelo,
+.banner__image__about,
+.banner__image__banho,
+.banner__image__maquiagem,
+.banner__image__perfumes,
+.banner__image__skincare {
     display: flex;
     width: 75vw;
     min-height: 135px;

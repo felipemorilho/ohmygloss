@@ -55,8 +55,6 @@
           <div class="container__header__logo">
             <a href="../index.html">
             <img
-            src="../assets/image/Logo.png"
-              alt="Logo da Oh My Gloss!"
               class="container__header__image"
             />
           </a>
@@ -218,7 +216,7 @@
       <div class="banner__container">
         <div class="banner__container__image">
           
-          <img alt loading="lazy" class="banner__image__cabelo" src="../assets/image/Perfume10.jpeg">
+          <img alt loading="lazy" class="banner__image__perfumes" src="">
           
         </div>
       </div>
@@ -271,54 +269,8 @@
       <div class="carousel__container">
           <div class="swiper">
 
-              <div class="swiper-wrapper-card">
-                  
-                  <div class="swiper-card"><img src="../assets/image/Perfume1.jpeg" alt="Perfume OMG Maia">
-                    <h2 class="swiper__title"> Perfume OMG Maia </h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>199,00</p>
-                    <button class="action__btn">Comprar</button>  
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Perfume2.jpeg" alt="Perfume OMG Uluwatu">
-                    <h2 class="swiper__title"> Perfume OMG Uluwatu </h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>229,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Perfume3.jpeg" alt="Perfume OMG Padang">
-                    <h2 class="swiper__title">Perfume OMG Padang </h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>209,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Perfume4.jpeg" alt="Perfume OMG Kuta">
-                    <h2 class="swiper__title">Perfume OMG Kuta</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>189,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Perfume5.jpeg" alt="Perfume OMG Ubud">
-                    <h2 class="swiper__title">Perfume OMG Ubud</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>199,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Perfume6.jpeg" alt="Perfume OMG Tioman">
-                    <h2 class="swiper__title">Perfume OMG Tioman</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>179,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Perfume7.jpeg" alt="Perfume OMG PhiPhi">
-                    <h2 class="swiper__title">Perfume OMG PhiPhi</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>199,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Perfume8.jpeg" alt="Perfume OMG Bintan">
-                    <h2 class="swiper__title">Perfume OMG Bintan</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>169,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Kit5.jpeg" alt="Kit Colonias OMG">
-                    <h2 class="swiper__title">Kit Colonias OMG</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>299,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-              </div>
+              <div class="swiper-wrapper-card" id="carousel-perfume"></div>
+
           </div>
       </div>
     </section>
@@ -332,7 +284,7 @@
 
         <div class="footer__logo">
           <h2 class="footer__title">Oh My Gloss</h2>
-          <img src="../assets/image/Logo.png" alt="Logo da OhMyGloss">
+          <img>
         </div>
         <ul class="footer-list">
             <li class="footer-list__item">
@@ -390,20 +342,7 @@
   </script>
 
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <script>
-      const swiper = new Swiper('.swiper', {
-          spaceBetween: 10,
-          slidesPerView: 3,
-          pagination: {
-              el: '.swiper-pagination',
-              type: 'bullets',
-          },
-          loop: true,
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-      });
-  </script>
+  <script src="../productScript.js"></script>
+  <script src="../script.js"></script>
   </body>
 </html>

@@ -55,8 +55,6 @@
           <div class="container__header__logo">
             <a href="../index.html">
             <img
-            src="../assets/image/Logo.png"
-              alt="Logo da Oh My Gloss!"
               class="container__header__image"
             />
           </a>
@@ -218,7 +216,7 @@
       <div class="banner__container">
         <div class="banner__container__image">
           
-          <img alt loading="lazy" class="banner__image__cabelo" src="../assets/image/Banho.jpeg">
+          <img alt loading="lazy" class="banner__image__banho" src="">
           
         </div>
       </div>
@@ -271,44 +269,7 @@
       <div class="carousel__container">
           <div class="swiper">
 
-              <div class="swiper-wrapper-card">
-                  
-                  <div class="swiper-card"><img src="../assets/image/SaboneteLiquido.jpeg" alt="Sabonete Liquido">
-                    <h2 class="swiper__title"> Sabonete Liquido </h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>21,00</p>
-                    <button class="action__btn">Comprar</button>  
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Banho2.jpeg" alt="Sabonete em barra floral">
-                    <h2 class="swiper__title">Sabonete OMG Floral </h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>6,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Banho3.jpeg" alt="Sabonete esfoliante">
-                    
-                    <h2 class="swiper__title">Sabonete Esfoliante </h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>11,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Banho4.jpeg" alt="Sabonete Esfoliante Herbal">
-                    
-                    <h2 class="swiper__title">Sabonete Herbal</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>11,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Banho5.jpeg" alt="Kit banho">
-                    
-                    <h2 class="swiper__title">Kit OMG Banho</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>47,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-                  <div class="swiper-card"><img src="../assets/image/Banho6.jpeg" alt="Kit Banho Completo">
-                    
-                    <h2 class="swiper__title">Kit Banho Completo</h2>
-                    <p class="swiper_price"><b class="price-bold">R$</b>89,00</p>
-                    <button class="action__btn">Comprar</button>
-                  </div>
-              
-              </div>
+              <div class="swiper-wrapper-card" id="carousel-banho"></div>
 
           </div>
       </div>
@@ -323,7 +284,7 @@
 
         <div class="footer__logo">
           <h2 class="footer__title">Oh My Gloss</h2>
-          <img src="../assets/image/Logo.png" alt="Logo da OhMyGloss">
+          <img>
         </div>
         <ul class="footer-list">
             <li class="footer-list__item">
@@ -381,20 +342,7 @@
   </script>
 
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <script>
-      const swiper = new Swiper('.swiper', {
-          spaceBetween: 10,
-          slidesPerView: 3,
-          pagination: {
-              el: '.swiper-pagination',
-              type: 'bullets',
-          },
-          loop: true,
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-      });
-  </script>
+  <script src="../productScript.js"></script>
+  <script src="../script.js"></script>
   </body>
 </html>

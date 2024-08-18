@@ -9,24 +9,6 @@ const checkboxes = document.querySelectorAll('.options input[type="checkbox"]');
         });
     });
 
-const swiper = new Swiper('.swiper', {
-    spaceBetween: 10,
-    slidesPerView: 3,
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-    },
-    loop: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    autoplay: {
-        delay: 2000, 
-        disableOnInteraction: false,
-    },
-});
-
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('.contact__container form');
 
