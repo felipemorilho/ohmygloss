@@ -48,8 +48,8 @@
 .top__header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: -webkit-fill-available;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .header {
